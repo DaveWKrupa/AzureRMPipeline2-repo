@@ -4,12 +4,14 @@
   "parameters": {
     "storageAccountName": {
       "type": "string",
+      "defaultValue": "mynewstorageacct",
       "metadata": {
         "description": "Specify the storage account name."
       }
     },
     "location": {
       "type": "string",
+      "defaultValue": "Central US",
       "metadata": {
         "description": "Specify a location for the resources."
       }
