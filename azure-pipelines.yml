@@ -22,3 +22,5 @@ steps:
     csmFileLink: 'https://raw.githubusercontent.com/DaveWKrupa/AzureRMPipeline2-repo/master/CreateWebApp/linkedStorageAccount.json'
     deploymentMode: 'Incremental'
     deploymentName: 'Deployment2'
+    overrideParameters: '-storageAccountName mystorageacct1'
+
