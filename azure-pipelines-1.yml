@@ -24,4 +24,9 @@ steps:
     deploymentName: 'AppGatewayDeployment'
     virtualNetworkName: 
     vnetAddressPrefix: "10.0.0.0/16"
-    subnetName: 
+    subnetName: "appGWSubnet1"
+    subnetPrefix: "10.0.0.0/24"
+    applicationGatewayName: "myAppGW1"
+    applicationGatewaySize: "Standard_Small"
+    applicationGatewayInstanceCount: 1
+    
