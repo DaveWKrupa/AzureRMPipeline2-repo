@@ -20,6 +20,5 @@ steps:
     location: 'Central US'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/DaveWKrupa/AzureRMPipeline2-repo/master/CreateWebApp/linkedStorageAccount.json'
-    overrideParameters: '-projectName myarmpipe2'
     deploymentMode: 'Incremental'
     deploymentName: 'Deployment2'
