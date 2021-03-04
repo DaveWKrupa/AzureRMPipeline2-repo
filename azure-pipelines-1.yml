@@ -22,11 +22,13 @@ steps:
     csmFileLink: 'https://raw.githubusercontent.com/DaveWKrupa/AzureRMPipeline2-repo/master/DeployApplicationGateway/ApplicationGateway.json'
     deploymentMode: 'Incremental'
     deploymentName: 'AppGatewayDeployment'
-    virtualNetworkName: 
+    virtualNetworkName: "myvnet1"
     vnetAddressPrefix: "10.0.0.0/16"
     subnetName: "appGWSubnet1"
     subnetPrefix: "10.0.0.0/24"
     applicationGatewayName: "myAppGW1"
     applicationGatewaySize: "Standard_Small"
     applicationGatewayInstanceCount: 1
-    
+    frontendPort: 80
+    backendPort: 80
+    backendIPAddresses:[{"IpAddress": "10.0.0.4"},{"IpAddress": "10.0.0.5"}]
